@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    max-width: 1500px; /* Increased max-width for more space */
+    padding: 50px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="number"] {
+    width: 150px; /* Increased width for input fields */
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#steps {
+    margin-bottom: 20px;
+}
+
+#steps h2 {
+    margin-bottom: 10px;
+}
+
+#pointsContainer {
+    margin-bottom: 20px;
+}
+
+#pointsContainer .pair {
+    margin-bottom: 10px;
+}
+
+#pointsContainer input[type="number"] {
+    width: calc(45% - 5px); /* Adjusted to fit the increased width of container */
+    margin-right: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#pointsContainer .pair:nth-child(2n) input[type="number"] {
+    margin-right: 0;
+}
