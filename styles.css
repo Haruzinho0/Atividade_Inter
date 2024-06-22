@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1500px; /* Increased max-width for more space */
+    max-width: 1500px; 
     padding: 50px;
     background-color: #333;
     border-radius: 8px;
@@ -24,7 +24,7 @@ label {
 }
 
 input[type="number"] {
-    width: 150px; /* Increased width for input fields */
+    width: 150px; 
     padding: 5px;
     margin-bottom: 10px;
     background-color: #333;
@@ -62,7 +62,7 @@ button:hover {
 }
 
 #pointsContainer input[type="number"] {
-    width: calc(45% - 5px); /* Adjusted to fit the increased width of container */
+    width: calc(45% - 5px); 
     margin-right: 5px;
     background-color: #333;
     color: #fff;
@@ -71,4 +71,25 @@ button:hover {
 
 #pointsContainer .pair:nth-child(2n) input[type="number"] {
     margin-right: 0;
+}
+
+select#methodSelect {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="white" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    cursor: pointer;
+}
+
+select#methodSelect option {
+    background-color: #333;
+    color: #fff;
 }
